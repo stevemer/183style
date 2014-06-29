@@ -6,6 +6,7 @@ class DefaultFilters(object):
 
 #Todo: Define filters through command line arguments
 
+
 class StyleError(object):
     """
     Represents a style error in the student's code.
@@ -189,3 +190,4 @@ class StyleRubric(object):
             self.egyptian = True
         else:
             self.notEgyptian = True
+
