@@ -38,7 +38,7 @@ class StyleError(object):
             "MAIN_SYNTAX": "Your declaration of main() does not adhere to conventional stylistic guidelines.",
             "STRINGSTREAM": "We disallow the use of stringstreams in this course to ensure mastery of other IO methods.",
         }
-
+        line_num += 1 # Because line numbers index from 1, although our data indexes from 0
         self.set_points_worth(points)
         self.set_line_num(line_num)
         self.set_label(list_of_errors[label])
