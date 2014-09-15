@@ -1,0 +1,3 @@
+#!/usr/bin/env python2
+from eecs183style.style_grader_main import main
+main()
